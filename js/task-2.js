@@ -13,7 +13,7 @@ class Storage {
   removeItem(itemToRemove) {
     if (this.#items.includes(itemToRemove) === true) {
       return this.#items.splice(this.#items.indexOf(itemToRemove), 1);
-    }
+    };
   }
 }
 
